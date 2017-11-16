@@ -5,7 +5,7 @@ var screenH;
 var screenW;
 var stars = [];
 var fps = 70;
-var numStars = 500;
+var numStars = 400;
 
 $('document').ready(function() {
 
@@ -21,6 +21,7 @@ $('document').ready(function() {
 	canvas.attr('height', screenH);
 	canvas.attr('width', screenW);
 	context = canvas[0].getContext('2d');
+
 
 	// Create all the stars
 	for(var i = 0; i < numStars; i++) {
@@ -113,12 +114,6 @@ Star.prototype.draw = function() {
 	context.fill();
 
 	context.restore();
-
-  context.font = 'bold 10pt Calibri';
-  context.fillText('Hello World!', 150, 100);
-  context.fillStyle = 'blue';
-  context.lineWidth = 4;
-  context.strokeStyle = 'blue';
 
 };
 //END CANVAS STARFIELD
