@@ -1,3 +1,4 @@
+//START CANVAS STARFIELD
 var canvas;
 var context;
 var screenH;
@@ -14,6 +15,7 @@ $('document').ready(function() {
 
 	// Get the canvas
 	canvas = $('#space');
+
 
 	// Fill out the canvas
 	canvas.attr('height', screenH);
@@ -111,4 +113,12 @@ Star.prototype.draw = function() {
 	context.fill();
 
 	context.restore();
+
+  context.font = 'bold 10pt Calibri';
+  context.fillText('Hello World!', 150, 100);
+  context.fillStyle = 'blue';
+  context.lineWidth = 4;
+  context.strokeStyle = 'blue';
+
 };
+//END CANVAS STARFIELD
