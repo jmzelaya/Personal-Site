@@ -7,10 +7,6 @@
   width: 100%;
 }
 
-.stars h1{
-
-
-}
 
 h1{
   font-family: 'Fjalla One', sans-serif;
@@ -21,4 +17,13 @@ h1{
   text-align: center;
   text-shadow: 1px 1px 5px yellow;
   letter-spacing: 7px;
+}
+
+p{
+  color: white;
+  font-size: 30px;
+  width: 600px;
+  z-index: 4;
+  position: relative;
+  text-align: center;
 }
