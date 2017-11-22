@@ -1,39 +1,43 @@
-/*Starfield styles*/
-#space {
-  position: absolute;
-	top: 0;
-	left: 0;
-  background: #203062;
-  width: 100%;
-}
+@media (min-width: 400px){
+  /*Starfield styles*/
+  #space {
+    position: absolute;
+  	top: 0;
+  	left: 0;
+    background: #203062;
+    width: 100%;
+  }
 
 
-h1{
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 120px;
-  color: yellow;
-  z-index: 4;
-  position: relative;
-  text-align: center;
-  text-shadow: 1px 1px 5px yellow;
-  letter-spacing: 7px;
-}
+  h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    color: yellow;
+    z-index: 4;
+    position: relative;
+    text-align: center;
+    text-shadow: 1px 1px 5px yellow;
+    letter-spacing: 7px;
+  }
 
-p{
-  color: white;
-  font-size: 30px;
-  width: 600px;
-  z-index: 4;
-  position: relative;
-  text-align: center;
-}
+  p{
+    color: white;
+    font-size: 30px;
+    width: 600px;
+    z-index: 4;
+    position: relative;
+    text-align: center;
+  }
 
-nav{
-  z-index: 4;
-  position: relative;
-}
+  nav{
+    z-index: 4;
+    position: relative;
+  }
 
-nav a{
-  text-decoration: none;
-  color: white;
+  nav a{
+    text-decoration: none;
+    color: white;
+  }
+
+
 }
