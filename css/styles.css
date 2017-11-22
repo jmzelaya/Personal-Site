@@ -8,6 +8,10 @@
     width: 100%;
   }
 
+  .stars{
+    height: 45%;
+  }
+
 
   h1{
     font-family: 'Fjalla One', sans-serif;
