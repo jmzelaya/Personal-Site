@@ -26,7 +26,7 @@
 
   p{
     color: white;
-    font-size: 30px;
+    font-size: 14px;
     width: 600px;
     z-index: 4;
     position: relative;
@@ -36,6 +36,7 @@
   nav{
     z-index: 4;
     position: relative;
+
   }
 
   nav a{
@@ -44,4 +45,4 @@
   }
 
 
-}
+} /*END styles for min-width: 400px*/
