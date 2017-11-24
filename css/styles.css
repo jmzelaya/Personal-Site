@@ -9,28 +9,33 @@
   }
 
   .stars{
-    height: 45%;
+    height: 40%;
   }
 
 
   h1{
     font-family: 'Fjalla One', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
+    line-height: 65px;
     color: yellow;
     z-index: 4;
     position: relative;
     text-align: center;
     text-shadow: 1px 1px 5px yellow;
-    letter-spacing: 7px;
+    letter-spacing: 12px;
+  }
+
+  h1 span{
+    display: block;
   }
 
   p{
     color: white;
-    font-size: 14px;
+    font-size: 20px;
     width: 600px;
     z-index: 4;
     position: relative;
-    text-align: center;
+    /*text-align: center;*/
   }
 
   nav{
@@ -42,6 +47,7 @@
   nav a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
   }
 
 
