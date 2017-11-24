@@ -41,14 +41,20 @@
   nav{
     z-index: 4;
     position: relative;
-
   }
 
-  nav a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
+  .navbar-inverse{
+    background-color: rgba(255,255,255, 0);
+    border: none;
   }
+
+  .navbar-inverse .navbar-toggle .icon-bar{
+    background-color: teal;
+  }
+
+
+
+
 
 
 } /*END styles for min-width: 400px*/
