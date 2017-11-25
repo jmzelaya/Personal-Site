@@ -48,6 +48,14 @@
     border: none;
   }
 
+  .navbar-inverse .navbar-toggle{
+    border:none;
+  }
+
+  .navbar-inverse .navbar-toggle:hover{
+    background-color: #203062;
+  }
+
   .navbar-inverse .navbar-toggle .icon-bar{
     background-color: rgba(0, 255, 191, 0.6);
   }
