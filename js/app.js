@@ -28,7 +28,7 @@ $('document').ready(function() {
 	for(var i = 0; i < numStars; i++) {
 		var x = Math.round(Math.random() * screenW);
 		var y = Math.round(Math.random() * screenH);
-		var length = 1 + Math.random() * 5;
+		var length = 1 + Math.random() * 2;
 		var opacity = Math.random();
 
 		// Create a new star and draw
