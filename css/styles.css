@@ -20,11 +20,11 @@
     font-family: 'Fjalla One', sans-serif;
     font-size: 60px;
     line-height: 65px;
-    color: yellow;
+    color: #F3F359;
     z-index: 4;
     position: relative;
     text-align: center;
-    text-shadow: 1px 1px 5px umber;
+    text-shadow: 1px 1px 5px MidnightBlue;
     letter-spacing: 12px;
   }
 
@@ -60,7 +60,7 @@
   }
 
   .navbar-toggle .icon-bar{
-    background-color: rgba(0, 255, 191, 0.6);
+    background-color: #a2d0cf;
   }
 
 
