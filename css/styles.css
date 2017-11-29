@@ -9,11 +9,14 @@
   }
 
   .stars{
-    height: 45%;
+    height: 330px;
+    overflow: hidden;
+    position: relative;
+    padding: 50px;
   }
 
 
-  h1{
+  .stars h1{
     font-family: 'Fjalla One', sans-serif;
     font-size: 60px;
     line-height: 65px;
@@ -21,7 +24,7 @@
     z-index: 4;
     position: relative;
     text-align: center;
-    text-shadow: 1px 1px 5px yellow;
+    text-shadow: 1px 1px 5px umber;
     letter-spacing: 12px;
   }
 
