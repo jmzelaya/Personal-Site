@@ -9,7 +9,7 @@
   }
 
   body{
-    background: #203062;
+    background: #1D2B5A;
   }
 
   .stars{
@@ -32,18 +32,10 @@
     letter-spacing: 12px;
   }
 
-  h1 span{
+  .stars h1 span{
     display: block;
   }
 
-  p{
-    color: white;
-    font-size: 20px;
-    width: 600px;
-    z-index: 4;
-    position: relative;
-    /*text-align: center;*/
-  }
 
   nav{
     z-index: 4;
