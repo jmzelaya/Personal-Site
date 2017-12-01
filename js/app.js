@@ -65,7 +65,7 @@ function Star(x, y, length, opacity) {
 	this.length = parseInt(length);
 	this.opacity = opacity;
 	this.factor = 1;
-	this.increment = Math.random() * .03;
+	this.increment = Math.random() * 0.03;
 }
 
 /**
