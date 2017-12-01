@@ -43,7 +43,7 @@
   }
 
   .navbar{
-    background-color: rgba(255,255,255, 0);
+    background-color: rgba(0, 0, 0, 0.06);
     border: none;
   }
 
@@ -60,13 +60,13 @@
   }
 
   .sky{
-    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#203062+0,2989d8+58,7db9e8+100 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#203062+0,207cca+99 */
     background: #203062; /* Old browsers */
-    background: -moz-linear-gradient(top, #203062 0%, #2989d8 58%, #7db9e8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #203062 0%,#2989d8 58%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #203062 0%,#2989d8 58%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#203062', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
-    height: 500px;
+    background: -moz-linear-gradient(top, #203062 0%, #207cca 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #203062 0%,#207cca 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #203062 0%,#207cca 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#203062', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
+    height: 300px;
   }
 
 
