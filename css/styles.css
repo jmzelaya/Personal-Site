@@ -36,6 +36,14 @@
     display: block;
   }
 
+  .stars p{
+    color: white;
+    z-index: 4;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+  }
+
 
   nav{
     z-index: 4;
