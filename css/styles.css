@@ -75,6 +75,7 @@
     background: linear-gradient(to bottom, #203062 0%,#207cca 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#203062', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
     height: 300px;
+    margin-top: -10px;
   }
 
 
