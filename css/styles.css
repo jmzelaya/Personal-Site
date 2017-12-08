@@ -55,6 +55,10 @@
     border: none;
   }
 
+  .navbar a{
+    color: #F3F359;
+  }
+
   .navbar-toggle{
     border:none;
   }
