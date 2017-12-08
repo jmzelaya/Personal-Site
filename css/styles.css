@@ -13,7 +13,7 @@
   }
 
   .stars{
-    height: 330px;
+    height: 430px;
     overflow: hidden;
     position: relative;
     padding: 50px;
@@ -30,6 +30,7 @@
     text-align: center;
     text-shadow: 1px 1px 5px MidnightBlue;
     letter-spacing: 12px;
+    margin-top: 50px;
   }
 
   .stars h1 span{
@@ -37,11 +38,12 @@
   }
 
   .stars p{
-    color: white;
+    font-size: 20px;
+    color: #e1dfdf;
     z-index: 4;
     position: relative;
     text-align: center;
-    margin-top: 20px;
+    margin-left: -13px;
   }
 
 
@@ -78,8 +80,9 @@
     background: -webkit-linear-gradient(top, #203062 0%,#207cca 99%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #203062 0%,#207cca 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#203062', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
-    height: 300px;
+    height: 500px;
     margin-top: -10px;
+    /*Height was 300px*/
   }
 
 
