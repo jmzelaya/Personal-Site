@@ -48,6 +48,18 @@
     margin-left: -13px;
   }
 
+  .stars .socialMedia{
+    position: relative;
+  }
+
+  .stars .socialMedia div{
+    display: inline-block;
+  }
+
+  .stars .socialMedia a img{
+    width: 55px;
+    height: auto;
+  }
 
   nav{
     z-index: 4;
