@@ -48,6 +48,25 @@
     margin-left: -13px;
   }
 
+  .stars ul{
+    position: relative;
+    color: white;
+    width: 320px;
+  }
+
+  .stars ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+
+  .stars ul li img{
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+    display: inline;
+  }
+
   .stars .socialMedia{
     position: relative;
   }
