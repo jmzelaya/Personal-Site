@@ -16,10 +16,18 @@
 
   h1{
     color: #F3F359;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
   }
 
   p{
     color: #e1dfdf;
+  }
+
+  div{
+    margin-top: -20px;
   }
 
   .stars{
@@ -27,11 +35,11 @@
     overflow: hidden;
     position: relative;
     padding: 50px;
+    margin-top: 0px;
   }
 
 
   .stars h1{
-    font-family: 'Fjalla One', sans-serif;
     font-size: 60px;
     line-height: 65px;
     z-index: 4;
@@ -137,11 +145,18 @@
 
   .sky h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+    letter-spacing: 3px;
   }
 
   .sky .bio{
     margin-top: 30px;
+  }
+
+  .sky .bio p{
+    font-size: 15px;
+    line-height: 22px;
+    /*letter-spacing: 1px;*/
   }
 
   .portfolio{
@@ -157,11 +172,11 @@
 
   .contact{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,88bbe2+22,e87853+100,e57654+100 */
-background: #7db9e8; /* Old browsers */
-background: -moz-linear-gradient(top, #7db9e8 0%, #88bbe2 22%, #e87853 100%, #e57654 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #7db9e8 0%,#88bbe2 22%,#e87853 100%,#e57654 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #7db9e8 0%,#88bbe2 22%,#e87853 100%,#e57654 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#e57654',GradientType=0 ); /* IE6-9 */
+    background: #7db9e8; /* Old browsers */
+    background: -moz-linear-gradient(top, #7db9e8 0%, #88bbe2 22%, #e87853 100%, #e57654 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7db9e8 0%,#88bbe2 22%,#e87853 100%,#e57654 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #7db9e8 0%,#88bbe2 22%,#e87853 100%,#e57654 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#e57654',GradientType=0 ); /* IE6-9 */
     height: 500px;
   }
 
