@@ -1,4 +1,4 @@
-@media (min-width: 400px){
+@media (min-width: 300px){
 
   /*Starfield styles*/
   #space {
@@ -20,24 +20,31 @@
     text-align: center;
     font-size: 40px;
     letter-spacing: 3px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
   }
 
   p{
     color: #e1dfdf;
   }
 
-  div{
-    margin-top: -20px;
-  }
-
   .stars{
     height: 430px;
     overflow: hidden;
     position: relative;
-    padding: 50px;
+    padding: 50px 15px;
     margin-top: 0px;
   }
 
+  .stars .col-sm-4 {
+    float: left;
+    width: 33.333%
+  }
+
+  .stars p{
+    padding: 0px;
+  }
 
   .stars h1{
     font-size: 60px;
@@ -71,14 +78,14 @@
     margin-left: -10px;
   }
 
-  .stars ul li{
+  .stars .col-sm-4 p{
     font-size: 15px;
-    display: inline-block;
+    display: inline;
     text-decoration: none;
     margin-top: 15px;
   }
 
-  .stars ul li img{
+  .stars .col-sm-4 img{
     width: 20px;
     height: auto;
     margin: 0px 5px 3px 5px;
@@ -110,11 +117,12 @@
 
   .navbar li a{
     color: #e1dfdf;
+    font-size: 15px;
     text-shadow: none;
   }
 
   .navbar li a:hover{
-    background-color: green;
+    background-color: #009999;
   }
 
   .navbar-toggle{
@@ -150,7 +158,6 @@
   }
 
   .sky .bio{
-    margin-top: 30px;
   }
 
   .sky .bio p{
