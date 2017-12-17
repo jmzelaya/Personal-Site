@@ -107,6 +107,10 @@
     height: auto;
   }
 
+  .stars .row .col-sm-4.socialMedia a img:hover{
+    color: #e1dfdf;
+  }
+
   .stars .row .socialMedia .col-sm-4{
     width: 25%;
   }
