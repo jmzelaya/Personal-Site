@@ -54,7 +54,7 @@
     text-align: center;
     text-shadow: 1px 1px 5px MidnightBlue;
     letter-spacing: 12px;
-    margin-top: 50px;
+    margin-top: 35px;
   }
 
   .stars h1 span{
@@ -163,9 +163,7 @@
   }
 
   .sky h1{
-    text-align: center;
-    font-size: 40px;
-    letter-spacing: 3px;
+    margin-top: 40px;
   }
 
   .sky .bio{
@@ -174,7 +172,8 @@
   .sky .bio p{
     font-size: 15px;
     line-height: 22px;
-    /*letter-spacing: 1px;*/
+    letter-spacing: 1px;
+    margin: 5px 22px 0px 14px;
   }
 
   .portfolio{
