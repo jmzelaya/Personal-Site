@@ -92,22 +92,23 @@
   .stars .col-sm-4 img{
     width: 20px;
     height: auto;
-    margin: 0px 5px 3px 5px;
+    margin: 0px 4px 4px 6px;
     display: inline;
   }
 
   .stars .row.socialMedia{
-    padding-right: 52px;
-    margin-left: 32px;
-    margin-top: 30px;
+    width: 273px;
+    margin-left: 49px;
   }
 
-  .stars .row .col-sm-4.socialMedia a img{
-    width: 40px;
+  .stars .row .col-sm-4.socialMedia a div{
+    font-size: 40px;
+    color: #007F91;
     height: auto;
+    transition: all 0.5s ease;
   }
 
-  .stars .row .col-sm-4.socialMedia a img:hover{
+  .stars .row .col-sm-4.socialMedia a div:hover{
     color: #e1dfdf;
   }
 
