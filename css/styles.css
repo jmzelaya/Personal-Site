@@ -170,15 +170,14 @@
     background: -webkit-linear-gradient(top, #203062 0%,#207cca 99%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #203062 0%,#207cca 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#203062', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
-    height: 500px;
+    height: 620px;
     margin-top: -20px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+
   }
 
   .sky h1{
     margin-top: 40px;
-  }
-
-  .sky .bio{
   }
 
   .sky .bio p{
@@ -190,10 +189,22 @@
     font-weight: 300;
   }
 
+  .sky .bio p img{
+    max-width: 150px;
+    float: left;
+    margin-right: 14px;
+    padding-top: 4px;
+    border-radius: 16px;
+  }
+
   .portfolio{
 
     height: 500px;
     box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  }
+
+  .portfolio .container .row a img{
+    max-width: 300px;
   }
 
   .contact{
