@@ -224,9 +224,19 @@
   }
 
   .portfolio .container .row p{
-    color: whitesmoke;
+    color: azure;
+    padding: 5px;
+    font-weight: 300;
+    font-size: 17px;
   }
 
+  .portfolio .container .row span{
+    font-weight: 500;
+  }
+
+  .portfolio .container .row hr{
+    margin: 17px;
+  }
 
   .contact{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b82df+0,9b80bf+19,9b80bf+19,c48cb2+44,cd94b1+51,cd94b1+51,e89f99+83,e8928b+99 */
