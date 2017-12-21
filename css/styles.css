@@ -190,7 +190,7 @@
   }
 
   .sky .bio p img{
-    max-width: 150px;
+    max-width: 145px;
     float: left;
     margin-right: 14px;
     padding-top: 4px;
@@ -215,6 +215,7 @@
   .portfolio .container .row a img{
     max-width: 360px;
     margin: 36px 0px 14px 3px;
+    border-radius: 5px;
   }
 
 
