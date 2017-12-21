@@ -211,8 +211,8 @@
   }
 
   .portfolio .container .row a img{
-    max-width: 360px;
-    margin: 15px 0px 14px 3px;
+    max-width: 97%;
+    margin: 15px 0px 14px 2px;
     border-radius: 5px;
   }
 
