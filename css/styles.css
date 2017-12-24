@@ -85,7 +85,7 @@
   }
 
   .stars .col-sm-4{
-    padding: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
     text-align: center;
   }
 
@@ -101,9 +101,10 @@
   }
 
   .stars .col-sm-4 img{
-    width: 20px;
+    width: 16px;
     height: auto;
-    margin: 0px 4px 4px 0px;
+    margin-right: 3px;
+    margin-bottom: 4px;
     display: inline;
   }
 
