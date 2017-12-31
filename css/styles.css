@@ -85,8 +85,7 @@
   }
 
   .stars .col-sm-4{
-    padding: 0px 10px 0px 10px;
-    text-align: center;
+    padding: 0px 0px 0px 0px;
   }
 
   .stars .col-sm-4 p{
@@ -101,15 +100,11 @@
   }
 
   .stars .col-sm-4 img{
-    width: 20px;
+    width: 16px;
     height: auto;
-    margin: 0px 4px 4px 0px;
+    margin-right: 3px;
+    margin-bottom: 4px;
     display: inline;
-  }
-
-  .stars .row.socialMedia{
-    width: 273px;
-    margin-left: 49px;
   }
 
   .stars .row .col-sm-4.socialMedia a div{
