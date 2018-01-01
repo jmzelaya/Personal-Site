@@ -40,7 +40,29 @@ $('document').ready(function() {
 
 	setInterval(animate, 2500 / fps);
 
-	
+	$('a[href^="#home"]').click(function () {
+		$('html, body').animate({
+			scrollTop: $(".stars").offset().top
+		}, 2000);
+	});
+
+	$('a[href^="#about"]').click(function () {
+		$('html, body').animate({
+			scrollTop: $(".sky").offset().top
+		}, 2000);
+	});
+
+	$('a[href^="#work"]').click(function () {
+		$('html, body').animate({
+			scrollTop: $(".portfolio").offset().top
+		}, 2000);
+	});
+
+	$('a[href^="#contact"]').click(function () {
+		$('html, body').animate({
+			scrollTop: $(".contact").offset().top
+		}, 2000);
+	});
 
 });
 
