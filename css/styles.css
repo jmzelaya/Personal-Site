@@ -147,6 +147,10 @@
     background-color: #009999;
   }
 
+  .navbar li a:focus{
+    background-color: #009999;
+  }
+
   .navbar-toggle{
     border:none;
   }

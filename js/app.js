@@ -52,7 +52,7 @@ $('document').ready(function() {
 		}, 2000);
 	});
 
-	$('a[href^="#work"]').click(function () {
+	$('a[href^="#portfolio"]').click(function () {
 		$('html, body').animate({
 			scrollTop: $(".portfolio").offset().top
 		}, 2000);
