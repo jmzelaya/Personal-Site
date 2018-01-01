@@ -249,12 +249,12 @@
     background: -webkit-linear-gradient(top, #6b82df 0%,#9b80bf 19%,#9b80bf 19%,#c48cb2 44%,#cd94b1 51%,#cd94b1 51%,#e89f99 83%,#e8928b 99%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #6b82df 0%,#9b80bf 19%,#9b80bf 19%,#c48cb2 44%,#cd94b1 51%,#cd94b1 51%,#e89f99 83%,#e8928b 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b82df', endColorstr='#e8928b',GradientType=0 ); /* IE6-9 */
-    height: 500px;
-    /* REMEMBER TO REMOVE HEIGHT AFTER PUTTING IN CONTENT*/
+    height: 400px;
     position: relative;
   }
 
   .contact h2{
+    font-size: 28px;
     text-align: center;
     color: azure;
   }
@@ -268,13 +268,18 @@
     border-radius: 10px;
     border: none;
     font-size: 25px;
-    width: 85%;
+    width: 280px;
     font-weight: bold;
     color: #D498AA;
   }
 
   .contact .contact-me span{
     display: inline-block;
+  }
+
+  .contact .contact-me a{
+    border: none;
+    text-decoration: none;
   }
 
   .contact .contact-me:hover{
