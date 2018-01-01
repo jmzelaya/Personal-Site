@@ -269,8 +269,14 @@
     color: #D498AA;
   }
 
-  .contact .contact-me:hover{
+  .contact .contact-me span{
+    display: inline-block;
+  }
 
+  .contact .contact-me:hover{
+    background-color: #e8aebf;
+    color: white;
+    transition: all 0.5s ease;
   }
 
 } /*END styles for min-width: 400px*/
