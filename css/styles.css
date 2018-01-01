@@ -33,7 +33,7 @@
     height: 430px;
     overflow: hidden;
     position: relative;
-    padding: 50px 15px;
+    padding: 50px 8px;
     margin-top: 0px;
   }
 
@@ -67,7 +67,7 @@
     z-index: 4;
     position: relative;
     text-align: center;
-    margin-left: -13px;
+
   }
 
   .stars ul{
@@ -90,13 +90,13 @@
 
   .stars .col-sm-4 p{
     font-size: 15px;
-    display: inline;
     text-decoration: none;
     margin-top: 15px;
   }
 
   .stars .row{
     margin-top: 25px;
+    padding: 0;
   }
 
   .stars .col-sm-4 img{
@@ -118,7 +118,12 @@
   .stars .row .col-sm-4.socialMedia a div:hover{
     color: #e1dfdf;
   }
-
+  .stars .row .col-sm-4.socialMedia .githubIcon{
+    float: right;
+  }
+  .stars .row .col-sm-4.socialMedia .twitterIcon{
+    float: left;
+  }
   .stars .row .socialMedia .col-sm-4{
     width: 25%;
   }
@@ -181,6 +186,7 @@
     margin: 5px 35px 0px 35px;
     text-align: justify;
     font-weight: 300;
+    text-justify: distribute;
   }
 
   .sky .bio p img{
@@ -251,7 +257,9 @@
 } /*END styles for min-width: 400px*/
 
 @media (min-width: 480px){
-
+ hr{
+   display: none;
+ }
 }
 
 @media(min-width: 768px){

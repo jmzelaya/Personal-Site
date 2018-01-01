@@ -39,6 +39,9 @@ $('document').ready(function() {
 	}
 
 	setInterval(animate, 2500 / fps);
+
+	
+
 });
 
 /**
