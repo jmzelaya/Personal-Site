@@ -21,7 +21,6 @@
     font-size: 40px;
     letter-spacing: 3px;
     display: inline-block;
-    text-align: center;
     width: 100%;
   }
 
@@ -246,13 +245,33 @@
     background: -webkit-linear-gradient(top, #6b82df 0%,#9b80bf 19%,#9b80bf 19%,#c48cb2 44%,#cd94b1 51%,#cd94b1 51%,#e89f99 83%,#e8928b 99%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #6b82df 0%,#9b80bf 19%,#9b80bf 19%,#c48cb2 44%,#cd94b1 51%,#cd94b1 51%,#e89f99 83%,#e8928b 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b82df', endColorstr='#e8928b',GradientType=0 ); /* IE6-9 */
-
-
     height: 500px;
     /* REMEMBER TO REMOVE HEIGHT AFTER PUTTING IN CONTENT*/
+    position: relative;
   }
 
+  .contact h2{
+    text-align: center;
+    color: azure;
+  }
 
+  .contact .contact-me{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    width: 85%;
+    font-weight: bold;
+    color: #D498AA;
+  }
+
+  .contact .contact-me:hover{
+
+  }
 
 } /*END styles for min-width: 400px*/
 
