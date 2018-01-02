@@ -373,10 +373,6 @@
     margin-bottom: 20px;
   }
 
-  .portfolio .container .row a:hover{
-    color: blue;
-  }
-
   .contact .contact-me{
     padding: 18px 0px;
     font-size: 29px;
@@ -401,6 +397,11 @@
   .stars h1{
     font-size: 70px;
     line-height: 80px;
+  }
+
+  .stars .col-sm-4.star img{
+    width: 22px;
+    margin-right: 8px;
   }
 
   .sky{
