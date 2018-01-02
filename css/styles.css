@@ -288,20 +288,92 @@
     transition: all 0.5s ease;
   }
 
-} /*END styles for min-width: 400px*/
+} /*END styles for min-width: 300px*/
+
 
 @media (min-width: 480px){
- hr{
-   display: none;
- }
- body{
-   background-color: red;
- }
-}
+   /* body{
+     background-color: red;
+   } */
+   h1{
+     font-size: 42px;
+   }
+
+   .sky{
+     padding: 15px 5px;
+   }
+
+   .stars h1{
+     font-size: 65px;
+   }
+
+   .stars p{
+     font-size: 22px;
+   }
+
+   .stars .row{
+     margin-top: 20px;
+   }
+
+   .stars .col-sm-4.star p{
+     font-size: 17px;
+   }
+
+   .stars .col-sm-4.star img{
+     width: 20px;
+   }
+
+  .stars .row .col-sm-4.socialMedia a div{
+    font-size: 45px;
+  }
+
+  .sky .bio p{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin: 10px 35px 0px 35px;
+  }
+
+  .sky .bio p img{
+    max-width: 155px;
+    margin-right: 14px;
+    padding-top: 8px;
+  }
+
+  .portfolio{
+    padding: 18px 10px;
+  }
+
+  .portfolio .container .row p{
+    font-size: 20px;
+  }
+
+  .portfolio .container .row .col-sm-4{
+    padding: 0px;
+  }
+
+  .portfolio .container .row a .wordblurred{
+    margin-bottom: 65px;
+  }
+
+  .portfolio .container .row a .zurvive{
+    margin-bottom: 65px;
+  }
+
+  .contact .contact-me{
+    padding: 18px 0px;
+    font-size: 29px;
+    width: 300px;
+  }
+}/*END styles for min-width: 480px*/
+
 
 @media(min-width: 768px){
   body{
     background-color: green;
+  }
+  hr{
+    display: none;
   }
 }
 
