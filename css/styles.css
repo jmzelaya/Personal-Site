@@ -1,11 +1,4 @@
-@media (min-width:150px){
-  .stars .col-4-sm img{
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 300px){
+@media (min-width: 200px){
 
   /*Starfield styles*/
   #space {
@@ -100,18 +93,17 @@
     margin-top: 15px;
   }
 
+  .stars .col-4-sm img{
+    width: 30px;
+    display: block;
+    margin: 0 auto;
+  }
+  
   .stars .row{
     margin-top: 25px;
     padding: 0;
   }
 
-  .stars .col-sm-4 img{
-    width: 16px;
-    height: auto;
-    margin-right: 3px;
-    margin-bottom: 4px;
-    display: inline;
-  }
 
   .stars .row .col-sm-4.socialMedia a div{
     font-size: 40px;
@@ -312,6 +304,14 @@
   }
 } /*END styles for min-width: 300px*/
 
+@media (min-width: 300px){
+  .stars .col-sm-4 img{
+    height: auto;
+    margin-right: 3px;
+    margin-bottom: 4px;
+    display: inline;
+  }
+}
 
 @media (min-width: 480px){
 
