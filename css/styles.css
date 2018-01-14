@@ -1,3 +1,10 @@
+/* @media (min-width:150px){
+  .stars .col-4-sm img{
+    display: block;
+    margin: 0 auto;
+  }
+} */
+
 @media (min-width: 300px){
 
   /*Starfield styles*/
@@ -84,7 +91,7 @@
   }
 
   .stars .col-sm-4{
-    padding: 0px 5px 0px 5px;
+    padding: 0px 0px 0px 0px;
   }
 
   .stars .col-sm-4 p{
@@ -93,10 +100,10 @@
     margin-top: 15px;
   }
 
-  /* .stars .row{
+  .stars .row{
     margin-top: 25px;
     padding: 0;
-  } */
+  }
 
   .stars .col-sm-4 img{
     width: 16px;
