@@ -152,6 +152,7 @@
 
   .navbar li a:hover{
     background-color: #009999;
+    transition: transition: all 0.5s ease;
   }
 
   .navbar li a:focus{
